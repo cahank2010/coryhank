@@ -27,7 +27,7 @@ const Services = () => {
   return (
     <div className={styles.bkImg} id="services-section">
       <Head>
-        <title>SERVICES Page</title>
+        <title>Wayfinder Mental Wellness</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <h1 className={styles.servicesHeader}>OUR<br></br>SERVICES</h1>    
@@ -40,7 +40,7 @@ const Services = () => {
                 <h1>
                   <FontAwesomeIcon icon={faComputer} size="1x"/>
                   &nbsp;&nbsp;&nbsp;
-                  MANAGED IT SOLUTIONS
+                  MENTAL HEALTH COUNSELING
                 </h1>
               </Link>
             </button>
@@ -55,7 +55,7 @@ const Services = () => {
                 <h1>
                   <FontAwesomeIcon icon={faShieldAlt} size="1x"/>
                   &nbsp;&nbsp;&nbsp;
-                  MANAGED CYBERSECURITY
+                  RELAXATION SESSIONS
                 </h1>
               </Link>
             </button>
@@ -70,7 +70,7 @@ const Services = () => {
                 <h1>
                   <FontAwesomeIcon icon={faProjectDiagram} size="1x"/>
                   &nbsp;&nbsp;&nbsp;
-                  PROJECT MANAGEMENT
+                  DIVERSITY & INCLUSION TRAINING
                 </h1>
               </Link>
             </button>
@@ -85,7 +85,7 @@ const Services = () => {
                 <h1>
                   <FontAwesomeIcon icon={faRoute} size="1x"/>
                   &nbsp;&nbsp;&nbsp;
-                  STRATEGIC CONSULTING
+                  MENTAL HEALTH WORKSHOPS
                 </h1>
               </Link>
             </button>
@@ -93,11 +93,11 @@ const Services = () => {
         </div>
         <br></br>
 
-        <div className={styles.singleCards}>
+        {/*<div className={styles.singleCards}>
           <h3 className={styles.divideCard}></h3>
           <h3 className={styles.divideCard}></h3>
           <h3 className={styles.smallLine}></h3>
-          <h2 className={styles.subHeadCard}>BETTER IT SUPPORT</h2>
+          <h2 className={styles.subHeadCard}>IMPROVE YOUR MENTAL HEALTH</h2>
           <h3 className={styles.smallLine}></h3>
         </div>
         <br></br>
@@ -111,7 +111,7 @@ const Services = () => {
               </a>
               <br></br><br></br>
               <p className={styles.pServStyle}>
-                We ensure your organizations data and information are kept secure and protected.
+                Enter Text Here.
               </p>
             </h2>
             <h2 className={styles.servSmallCard2}>
@@ -153,7 +153,7 @@ const Services = () => {
           <br></br> 
         </div>                                
 
-        <br></br>
+  <br></br>*/}
 
         <div className={styles.cards}>
           <h2 className={styles.smallCard}></h2>

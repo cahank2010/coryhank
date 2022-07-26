@@ -101,7 +101,7 @@
 /*Services Header*/
 .servicesHeader {
   /*background*/
-  background-image: URL("images/aerialNew.jpg");
+  background-image: URL("images/beach.jpg");
   background-position: 50%;
   /*text*/
   color:white;
@@ -112,7 +112,7 @@
   padding: 40px;
   width: 100%;
   height: fit-content;
-  border-top: 2px blueviolet solid;
+  border-top: 2px #38b6ff solid;
   text-align: center;
   vertical-align: middle;
   outline: none;
@@ -473,8 +473,8 @@
 }
 
 .contactCard {
-  background-image: URL("/circuitNew.png");
-  background-position: 40% 40%;
+  background-image: URL("/puzzle.png");
+  background-position: 70% 60%;
   background-color: black;
   color:white;
   font-weight: 600;
@@ -490,8 +490,8 @@
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .contactCard:hover {
   background-position: 20% 20%;
-  background-color: blueviolet;
-  background-image: URL("/circuitNew.png");
+  background-color: #38b6ff;
+  background-image: URL("/puzzle.png");
   color: white;
   border-radius: 25px;
   transition: 0.5s ease;
@@ -500,22 +500,23 @@
 
 .serviceCard {
   background-color: white;
-  color:blueviolet;
+  color:#38b6ff;
   font-size: 20px;
   font-weight: 600;
   margin: 0 auto;
   text-align: center;
   justify-content: center;
   height: 80px;
-  width: 350px;
+  width: 400px;
   border-radius: 10px;
   border: 2px solid black;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .serviceCard:hover {
-  background-color: blueviolet;
-  background-image: URL("/circuitSmall.png");
+  background-color: #38b6ff;
+  background-image: URL("/brainBkgrnd.png");
+  background-position: 50%;
   color: white;
   border-radius: 10px;
   border: 2px solid black;
