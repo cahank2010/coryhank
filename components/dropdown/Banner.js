@@ -15,10 +15,10 @@ const App = () => {
           <div className="flex bg-black text-white border-b-[2px] border-[#38b6ff] h-20 justify-between items-center sticky top-0 z-10">
             <a href="/">
               <Image
-                src="/WayfarLight.png"
+                src="/wayfindTop.png"
                 alt="Apollo Systems logo"
-                width={175}
-                height={105}
+                width={190}
+                height={68}
                 />
             </a>
             <Hamburger toggled={isOpen} toggle={setOpen} />

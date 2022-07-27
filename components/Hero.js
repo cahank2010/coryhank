@@ -7,7 +7,7 @@ const Hero = () => {
     
     <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-hero-pattern">
         <Image
-            src="/CompLogo1.png"
+            src="/AltLogo4.png"
             alt="Compass image of Wayfarer Wellness logo"
             width={800}
             height={800}
