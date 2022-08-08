@@ -3,14 +3,13 @@ const sharp = require("sharp");
 async function resizeImage() 
 {
   try {
-    await sharp("./src/images/beach.jpg")
+    await sharp("./public/equality.jpg")
       .resize({
         width: 1920,
-        height: 1280
+        height: 2880
       })
-      /*.grayscale()*/
-      .extract({ width: 1920, height: 300, left: 0, top:400  })
-      .toFile("./public/beachNew.jpg");
+      .extract({ width: 1920, height: 1920, left: 0, top: 0  })
+      .toFile("./public/equalNew.jpg");
   } catch (error) {
     console.log(error);
   }

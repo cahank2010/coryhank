@@ -3,8 +3,10 @@
   background-color: white;
   background-image: linear-gradient(
     to bottom, transparent, white
-  ),url('/bkDesk.png');
+  ),url('/whiteDesk.jpg');
+  background-position: 50% 0%;
   background-repeat: no-repeat;
+  font-family: 'Source Sans Pro', sans-serif;
   position: center;
 }
 
@@ -15,6 +17,7 @@
     to top, transparent, white
   ),url('/bkCoffee.jpg');
   background-repeat: no-repeat;
+  font-family: 'Source Sans Pro', sans-serif;
   position: center;
 }
 
@@ -22,27 +25,32 @@
   font-weight: 700;
   font-size: 17px;
   text-decoration: underline;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .pStyle {
   font-weight: 400;
   padding-bottom: 20px;
   border-bottom: white solid 2px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .pStyleBot {
   font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .menus {
   display: inline-block; /*was originally flex*/
   list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .menuItems {
   display: fixed;
   position: relative;
   font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -53,9 +61,10 @@
   border: none;
   background-color: none;
   cursor: pointer;
-  width: 300px;
+  width: 500px;
   text-align: center;
   padding: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .menuItems a {
@@ -67,11 +76,13 @@
   color: white;
   font-weight: bold;
   text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .menuItems button:hover {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: URL("/circuitSmall.png");
+  background-image: URL("/brainBkgrnd.png");
+  background-position: 50% 50%;
   /*text-decoration: underline;*/
   border: solid white;
   border-width: 1px;
@@ -81,8 +92,8 @@
   color: white;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: URL("/circuitSmall.png");
-  background-position: 20% 40%;
+  background-image: URL("/puzzle.png");
+  background-position: 50% 40%;
   border: solid white;
   border-width: 1px;
 } 
@@ -121,11 +132,8 @@
 
 /*contact*/
 .contactUsHeader {
-  /*background*/
-  background-image: URL("images/laptopNew.jpg");
-  background-position: 50%;
   /*text*/
-  color:white;
+  color:black;
   font-weight: bold;
   -webkit-text-stroke: 0px;
   -webkit-text-stroke-color: black;
@@ -137,7 +145,7 @@
   text-align: center;
   vertical-align: middle;
   outline: none;
-  font-size: 60px;
+  font-size: 20px;
 } 
 
   /*Managed IT*/
@@ -356,39 +364,58 @@
 }
 
 .servSmallCard1 {
-  background-color: rgba(98, 29, 163);
-  background-image: URL("/circuitNew.png"), linear-gradient(270deg, black, blueviolet);
-  background-position: 20%;
-  color:white;
+  background-color: white;
+  color:black;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 15px;
-  padding-left: 4px;
-  padding-right: 4px;
   height: auto;
   width: 250px;
   font-size: 14px;
   border: white solid 1px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
+.servSmallCard2:hover {
+    outline: #38b6ff solid 4px;
+    color: black;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.servSmallCard1:hover {
+  outline: #38b6ff solid 4px;
+  color: black;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .servSmallCard2 {
-  background-color: rgba(98, 29, 163);
-  background-image: URL("/circuitNew.png"), linear-gradient(90deg, black, blueviolet);
-  background-position: 70%;
-  color:white;
+  background-color: white;
+  color:black;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 15px;
-  padding-left: 4px;
-  padding-right: 4px;
   height: auto;
   width: 250px;
   font-size: 14px;
-  border: white solid 1px;
-  border-radius: 5px;
+  border: white solid 2px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.headshotCard {
+  background-color: white;
+  color:black;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 15px;
+  height: auto;
+  width: 250px;
+  font-size: 14px;
+  border: #38b6ff solid 2px;
+  border-radius: 10px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -396,16 +423,16 @@
 .servImg {
   width: 250px;
   height: auto;
-  border-bottom: rgb(236, 121, 26) 4px;
+  border-bottom: white 2px;
   border-style: solid;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 8px;
+
 }
 
 .aServStyle {
   font-weight: 700;
-  font-size: 16px;
-  text-decoration: underline;
+  font-size: 18px;
+
 }
 
 .pServStyle {
@@ -821,24 +848,49 @@
 }
 
 .imgCards {
-  max-width: 75%;
+
   margin: auto;
   display: flex;
-  gap: 10px;
   margin-bottom: 10px;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
   /* Screen larger than 600px? 2 column */
-  @media (min-width: 600px) {
-    .imgCards { grid-template-columns: repeat(3, 1fr); }
+  @media (min-width: 960px) {
+    .imgCards { grid-template-columns: repeat(4, 1fr); }
   }
 
   /* Screen larger than 900px? 3 columns */
-  @media (min-width: 900px) {
-    .imgCards { grid-template-columns: repeat(3, 1fr); }
+  @media (max-width: 960px) {
+    .imgCards { grid-template-columns: repeat(2, 1fr); }
   }
+    /* Screen larger than 900px? 3 columns */
+    @media (max-width: 500px) {
+      .imgCards { grid-template-columns: repeat(1, 1fr); }
+    }
+
+.serviceCards {
+  max-width: 75%;
+  margin: 0 auto;
+  gap: 10px;
+  display: grid;
+  justify-content: center;
+}
+    
+/* Screen larger than 600px? 5 column */
+@media (min-width: 965px) {
+  .serviceCards { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* Screen smaller than 600px? 3 column */
+@media (max-width: 965px) {
+  .serviceCards { grid-template-columns: repeat(2, 2fr); }
+}
+
+/* Screen smaller than 600px? 3 column */
+@media (max-width: 500px) {
+  .serviceCards { grid-template-columns: repeat(1, 2fr); }
+}
   
 
 .footerCards {
@@ -859,4 +911,31 @@
 /* Screen smaller than 600px? 2 column */
 @media (max-width: 700px) {
   .footerCards { grid-template-columns: repeat(1, 1fr); }
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #38b6ff78 ;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.popupInner {
+  position: relative;
+  padding: 0;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 650px;
+  background-color: white;
+}
+
+.popupInner .closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }

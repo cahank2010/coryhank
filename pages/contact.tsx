@@ -19,12 +19,12 @@ const contact = () => {
   return (
       <>
         <div className={styles.bkContact} id="contact-section">
-            <h1 className={styles.contactUsHeader}>CONTACT<br></br>US</h1>      
+            <h1 className={styles.contactUsHeader}>Contact<br></br>Me</h1>      
 
             <div className={cards.singleCards}>
                 <h3 className={cards.divideCard}></h3>
-                        <p className={cards.largeCard}>Reach out to us if you have any questions about our
-                        service offerings, or to schedule a free consultation.</p>
+                        <p className={cards.largeCard}>Please reach out to me if you have any questions about Wayfinder,
+                        or to schedule a session.</p>
                 <h3 className={cards.divideCard}></h3>
             </div>
         <div className="px-32">
@@ -82,33 +82,6 @@ const contact = () => {
             <h3 className={cards.divideCard}></h3>
         </div>
 
-
-        <div className={cards.footerCards}>
-          <h2 className={cards.footerCard}>
-          <Link href="https://linkedin.com">
-            <a className="p-6">
-              <FontAwesomeIcon icon={faLinkedin} size="2x"/>
-            </a>
-          </Link>
-
-          <Link href="https://twitter.com">
-            <a className="p-6">
-              <FontAwesomeIcon icon={faTwitter} size="2x"/>
-            </a>
-          </Link>
-
-          <Link href="https://facebook.com">
-            <a className="p-6">
-              <FontAwesomeIcon icon={faFacebook} size="2x"/>
-            </a>
-          </Link>
-
-          <Link href="https://instagram.com">
-            <a className="p-6">
-              <FontAwesomeIcon icon={faInstagram} size="2x"/>
-            </a>
-          </Link></h2>
-        </div>
         </div>
       </>
 )

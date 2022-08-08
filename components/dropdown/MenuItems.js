@@ -31,9 +31,9 @@ const MenuItems = ({
         };
     }, [dropdown]);
 
-    const onMouseEnter = () => {window.innerWidth > 960 && setDropdown(true);};
+    const onMouseEnter = () => {window.innerWidth > 1920 && setDropdown(true);};
 
-    const onMouseLeave = () => {window.innerWidth > 960 && setDropdown(false);};
+    const onMouseLeave = () => {window.innerWidth > 1920 && setDropdown(false);};
 
     return ( 
         <li 

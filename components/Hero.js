@@ -1,17 +1,20 @@
-import React from 'react'
 import Image from 'next/image'
 
 
+
 const Hero = () => {
+
+
   return (
     
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-hero-pattern">
+    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-hero-pattern bg-center">
         <Image
-            src="/AltLogo4.png"
+            src="/AltLogo5.png"
             alt="Compass image of Wayfarer Wellness logo"
-            width={800}
-            height={800}
+            width={600}
+            height={600}
         />
+
     </div>
   )
 }

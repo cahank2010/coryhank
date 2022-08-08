@@ -4,13 +4,8 @@ export const menuItems = [
      title: "ABOUT",
      submenu: [
       {
-       title: "ABOUT US",
-       link: '/about_us',
-
-      },
-      {
-       title: "OUR APPROACH",
-       link: '/our_approach',
+       title: "ABOUT ME",
+       link: '/my_background',
        /*submenu: [
         {
         title: "Submenu Test 1",
@@ -31,20 +26,20 @@ export const menuItems = [
      title: "SERVICES",
        submenu: [
         {
-         title: "MANAGED IT SUPPORT",
-         link: '/managed_it',
+         title: "COUNSELING",
+         link: '/counseling',
         },
         {
-         title: "CYBERSECURITY",
-         link: '/cyber_security',
+         title: "RELAXATION SESSIONS",
+         link: '/relaxation_sessions',
         },
         {
-         title: "PROJECT MANAGEMENT",
-         link: '/project_mgmt',
+         title: "WELLNESS WORKSHOPS",
+         link: '/wellness_workshops',
         },
         {
-         title: "IT CONSULTING",
-         link: '/it_consulting',
+         title: "WORKPLACE TRAINING",
+         link: '/workplace_training',
         }
     ],
     },
@@ -52,13 +47,9 @@ export const menuItems = [
      title: "CONTACT",
      submenu: [
         {
-         title: "CONTACT US",
+         title: "CONTACT ME",
          link: '/contact',
         },
-        {
-         title: "SUPPORT",
-         link: '/support',
-        }
     ],
     }
 ];

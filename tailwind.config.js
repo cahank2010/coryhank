@@ -11,7 +11,8 @@ module.exports = {
 
     backgroundImage: {
       'hero-pattern':
-        "linear-gradient( black, transparent, black), url('/bkSpace.jpg')",
+        /*"linear-gradient( black, transparent, black), url('/bkSpace.jpg')",*/
+        "linear-gradient( black, transparent, black), url('/sailing.jpg')",
     },
   },
   variants: {},
