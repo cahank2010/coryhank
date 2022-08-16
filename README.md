@@ -1,4 +1,4 @@
-Personal website
+Horse Mountain website
 
 Next.js + TailwindCSS
 

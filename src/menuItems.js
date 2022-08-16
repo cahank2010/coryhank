@@ -1,55 +1,15 @@
 
 export const menuItems = [
     {
-     title: "ABOUT",
-     submenu: [
-      {
-       title: "ABOUT ME",
-       link: '/my_background',
-       /*submenu: [
-        {
-        title: "Submenu Test 1",
-        },
-        {
-         title: "Submenu Test 2",
-         submenu: [
-                {
-                    title: "Sub-submenu Test 1",
-                },       
-            ],
-        },
-        ],*/   
-      },
-    ],
+     title: "ABOUT ME",
+       link: '/background',  
     },
     {
-     title: "SERVICES",
-       submenu: [
-        {
-         title: "COUNSELING",
-         link: '/counseling',
-        },
-        {
-         title: "RELAXATION SESSIONS",
-         link: '/relaxation_sessions',
-        },
-        {
-         title: "WELLNESS WORKSHOPS",
-         link: '/wellness_workshops',
-        },
-        {
-         title: "WORKPLACE TRAINING",
-         link: '/workplace_training',
-        }
-    ],
+     title: "PROJECTS",
+       link: '/projects',
     },
     {
-     title: "CONTACT",
-     submenu: [
-        {
-         title: "CONTACT ME",
-         link: '/contact',
-        },
-    ],
+     title: "CONTACT ME",
+       link: '/contact',
     }
 ];

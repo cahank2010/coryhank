@@ -13,17 +13,17 @@ import { faPhoneAlt,
          faShieldHalved} from '@fortawesome/free-solid-svg-icons'
 
 
-const wellness_workshops = () => {
+const workplace_training = () => {
     const [isSent, setIsSent] = useState(false)
     const [buttonPopup, setButtonPopup] = useState(false); /*button trigger*/
   return (
     <>
-    <div className={styles.bkImg}>
+    <div className={styles.bkContact}>
       <Head>
-        <title>Wellness Workshops</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Work Examples</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className={styles.cyberHeader}>Wellness<br></br>Workshops
+      <div className={styles.projectHeader}>Personal Project<br></br>Examples
       </div>
 
     <div className={styles.singleCards}>
@@ -65,4 +65,4 @@ const wellness_workshops = () => {
   )
 }
 
-export default wellness_workshops
+export default workplace_training
