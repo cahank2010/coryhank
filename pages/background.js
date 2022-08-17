@@ -53,18 +53,6 @@ const background = () => {
           process control engineer in manufacturing, where I worked to optimize processes through automation and statistcal process 
           control. Since then I have held multiple roles, centered around project management and process improvement.</h2>
 
-            <h2 className={styles.largeCard}>I have over five years' experience in clinical counseling in a wide range of settings, including inpatient treatment, 
-            a bariatric and medical weight loss program in which clients were pursuing bariatric surgery, multiple college counseling centers, and a community 
-            health center. I also have experience in clinical supervision.</h2>
-
-            <h2 className={styles.largeCard}> 
-            I am open to and enjoy working with a diverse range of clients, including individuals of varying religious beliefs, ethnicity, gender identity, 
-            and sexual orientation. I am passionate about the practice of therapy, and helping those in need develop the tools and skills required to cope with
-            difficult situations in life.
-          </h2>
-
-            <h2 className={styles.largeCard}>I am a Licensed Clincal Psychologist (SC/VA), as well as a Professor of Practice at The Citadel. 
-          I earned a Masters in clinical-counseling psychology (2013), and Psy.D. in counseling psychology from Radford University (2017).</h2>
     </div>
     <br />
 
